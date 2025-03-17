@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/htop')
 def htop():
    
-    username = os.getenv("USER") or "mayanknayak99"
+    username =  "mayanknayak99"
 
     
     ist_time = datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30)
